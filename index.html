@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>HomieMart</title>
+</head>
+<body>
+  <header class="main-section">
+    <nav class="navbar">
+      <div class="logo">HomieMart</div>
+      <ul class="nav-links">
+        <li> <a href="index.html" class="active">Home</a></li>
+        <li> <a href="#">Achievements</a></li>
+        <li> <a href="marketplace.html">Marketplace</a></li>
+        <li> <a href="aboutus.html">About us</a></li>
+        <li> <a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-icon">
+        <i class='bx bx-search' id="search-icon"></i> 
+        <input type="text" class="search-input" id="search-input" placeholder="Search here...">
+        <i class='bx bx-cart'></i> 
+        <i class='bx bx-user'></i> 
+
+        <div id="menu-icon"><i class='bx bx-menu'></i> </div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <button id="prev-btn" class="prev-btn"><i class='bx bx-chevron-left'></i></button>
+      <div class="home-content">
+        <h1>Empowering Homemakers Through Creativity and Commerce</h1>
+        <div class="home-btn">
+          <button class="join-btn">Join with us</button>
+          <button class="learn-btn">learn more</button>
+        </div>
+      </div>
+      <button id="next-btn" class="next-btn"><i class='bx bx-chevron-right'></i></button>
+    </div>
+  </header>
+
+  <h1>Categories</h1>
+  <section class="categories-section">
+      <div class="categories">
+          <div class="category-card dye-crafts">
+              <h2>Dye Crafts</h2>
+              <p>Hand-dyed fabrics and artistic creations.</p>
+              <a href="dyecraft.html">Discover More</a>
+          </div>
+          <div class="category-card gardening-products">
+              <h2>Gardening Products</h2>
+              <p>Indoor plants, gardening kits, and planters.</p>
+              <a href="gardening.html">Discover More</a>
+          </div>
+          <div class="category-card baking">
+              <h2>Baking</h2>
+              <p>Cakes, cookies, bread, and pastries.</p>
+              <a href="baking.html">Discover More</a>
+          </div>
+          <div class="category-card handicrafts">
+              <h2>Handicrafts</h2>
+              <p>Pottery, jewelry, decor, and more.</p>
+              <a href="handicraft.html">Discover More</a>
+          </div>
+          <div class="category-card sustainable-products">
+              <h2>Sustainable Products</h2>
+              <p>Eco-friendly bags and reusable household items.</p>
+              <a href="sustainable.html">Discover More</a>
+          </div>
+          <div class="category-card cooking">
+              <h2>Cooking</h2>
+              <p>Home-cooked meals, snacks, and desserts.</p>
+              <a href="cooking.html">Discover More</a>
+          </div>
+          <div class="category-card art-and-painting">
+              <h2>Art and Painting</h2>
+              <p>Decorative wall art, paintings, and illustrations.</p>
+              <a href="art.html">Discover More</a>
+          </div>
+          <div class="category-card knitting-and-crochet">
+              <h2>Knitting and Crochet</h2>
+              <p>Woolen clothing, blankets, and accessories.</p>
+              <a href="knitting.html">Discover More</a>
+          </div>
+          <div class="category-card wellness-products">
+              <h2>Wellness Products</h2>
+              <p>Homemade soaps, skincare, and remedies.</p>
+              <a href="wellness.html">Discover More</a>
+          </div>
+          <div class="category-card stationery">
+              <h2>Stationery and Paper Crafts</h2>
+              <p>Greeting cards, journals, and bookmarks.</p>
+              <a href="paper.html">Discover More</a>
+          </div>
+      </div>
+  </section>
+
+  <section class="info-section">
+    <div class="info-content">
+        <h2>HomeHub empowers homemakers by connecting their talents with customers seeking authentic, handmade products. <br> Join our community to explore creativity and commerce!</h2>
+        <button class="learn-more-btn">Learn More</button>
+    </div>
+    <div class="image-gallery">
+        <div class="main-image">
+          <img src="images/image1.jpg" alt="Main image" />
+        </div>
+        <div class="thumbnail-images">
+            <div class="thumbnail">
+              <img src="images/image2.jpg" alt="Main image" />
+            </div>
+            <div class="thumbnail">
+              <img src="images/image3.jpg" alt="Main image" />
+            </div>
+            <div class="thumbnail">
+              <img src="images/image4.jpg" alt="Main image" />
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonials-container">
+      <!-- First set of testimonials -->
+      <div class="testimonial-set active">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Impressed <br> by the professionalism and attention to detail.
+          </p>
+          <div class="user-info">
+            <img src="images/cute.png" alt="User 1" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Sophia Williams </p>
+              <p class="user-handle">@sophiaw</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>A seamless experience from start to finish. Highly recommend!
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Liam Brown</p>
+              <p class="user-handle">@olivia_smith</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>An exceptional experience, exceeded all expectations. Will definitely return!
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Noah Johnson</p>
+              <p class="user-handle">@noah_j</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Absolutely amazing! The service was top-notch and exceeded my expectations
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Emma Davis</p>
+              <p class="user-handle">@emma_d</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Reliable and trustworthy. Made my life so much easier.
+          </p>
+          <div class="user-info">
+            <img src="images/cute.png" alt="User 3" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Olivia Smith</p>
+              <p class="user-handle">@olivia_smith</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Second set of testimonials -->
+      <div class="testimonial-set">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Outstanding service from beginning to end. Truly remarkable!
+          </p>
+          <div class="user-info">
+            <img src="images/cute.png" alt="User 1" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Lucas Miller </p>
+              <p class="user-handle">@lucas.m</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Every detail was handled perfectly. Couldn’t ask for more!
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Ava Martinez</p>
+              <p class="user-handle">@ava_martinez</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Smooth, efficient, and professional. Exceeded my expectations!
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Ethan Garcia</p>
+              <p class="user-handle">@ethan.garcia</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>An unforgettable experience delivered with excellence at every step.
+          </p>
+          <div class="user-info">
+            <img src="images/Screenshot (16).png" alt="User 2" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Isabella White</p>
+              <p class="user-handle">@bella_w</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            <span class="quote">“</span>Impressive attention to detail and impeccable execution. Will return!
+          </p>
+          <div class="user-info">
+            <img src="images/cute.png" alt="User 3" class="user-image">
+            <div class="user-details">
+              <p class="user-name">Zoe Lee</p>
+              <p class="user-handle">@zoe_l</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="pagination">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+    </div>
+  </section>
+
+  <section class="trending-items">
+    <h2>Trending Items</h2>
+    <div class="items-grid">
+      
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image1.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image2.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image3.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image4.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image5.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image6.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image7.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image8.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image9.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+
+      <div class="item-card">
+        <div class="item-image">
+          <img src="images/image10.jpg" alt="Product Image">
+          <button class="add-btn">Add</button>
+        </div>
+        <h3>Product Name</h3>
+        <p>Price</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <h2 class="offers-title">Offers</h2>
+  <section class="offers-container">
+    <div class="offer-box vertical"></div>
+    <div class="offer-box promo">50%</div>
+    <div class="offer-box large"></div>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-about">
+      <h3>HomieMart</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, 
+          mattis ac neque. Donec dapibus fermentum risus, at ultrices mi molestie sed.</p>
+  </div>
+  <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </div>
+  <div class="footer-subscribe">
+      <h3>HomieMart gave me the plateform to showcase my talent and reach new customers!</h3>
+      <form action="#">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+      </form>
+  </div>
+</footer>
+
+<!-- Back to top button -->
+<a href="#" id="backToTop" class="back-to-top">
+  <i class='bx bx-up-arrow'></i>
+</a>
+
+</body>
+  <script src="script.js"></script>
+</html>
